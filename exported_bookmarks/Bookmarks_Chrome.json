@@ -1,5 +1,5 @@
 {
-   "checksum": "889aae721d129cb05bd373f972df1b1e",
+   "checksum": "94d8ee46494742de9d495fc71488a2bd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -494,17 +494,6 @@
             "name": "",
             "type": "url",
             "url": "https://gemini.google.com/app"
-         }, {
-            "date_added": "13393107850949022",
-            "date_last_used": "0",
-            "guid": "54f93a33-487d-46b0-958e-757e1314a345",
-            "id": "60",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "ChatGPT",
-            "type": "url",
-            "url": "https://chatgpt.com/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
