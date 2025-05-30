@@ -1,4 +1,3 @@
-# import_monitored_bookmarks.py
 import time, subprocess
 from pathlib import Path
 from watchdog.observers import Observer
@@ -12,20 +11,18 @@ STATE_FILE = Path.cwd() / "state" / "last_export_checksum.txt"
 
 class ImportChangeHandler(FileSystemEventHandler):
     def on_modified(self, event):
-        if event.is_directory or not event.src_path.endswith(JSON_FILE.name):
+        if event.is_directory:
+            return
+        if not event.src_path.endswith(JSON_FILE.name):
             return
 
-        current = calc_checksum(JSON_FILE)
-        last_export = read_last(STATE_FILE)
-        if current == last_export:
-            print("🔒 JSON matches last export → skipping import")
-            return
-
-        print("📥 New JSON detected → pulling & importing…")
+        print("📥 JSON changed → pulling & importing…")
         subprocess.run(["git", "pull"], check=False)
         import_bookmarks(str(JSON_FILE))
 
+        # After import, record the checksum of Chrome's Bookmarks
         chrome_file = get_chrome_bookmarks_path()
+        # (optionally wait for Chrome to release the file here)
         new_sum = calc_checksum(chrome_file)
         write_last(STATE_FILE, new_sum)
         print("✅ Import complete; state updated")
@@ -37,11 +34,11 @@ if __name__ == "__main__":
     observer = Observer()
     observer.schedule(handler, str(JSON_FILE.parent), recursive=False)
     print(f"👀 Watching synced JSON in {JSON_FILE.parent}")
+    # Also do a periodic pull to catch missed updates
     observer.start()
     try:
         while True:
             time.sleep(30)
-            # periodic pull in case we miss a filesystem event
             subprocess.run(["git", "pull"], check=False)
     except KeyboardInterrupt:
         observer.stop()
