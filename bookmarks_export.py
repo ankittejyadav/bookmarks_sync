@@ -1,4 +1,4 @@
-# bookmark_sync.py
+# bookmarks_export.py
 import os
 import shutil
 import platform
