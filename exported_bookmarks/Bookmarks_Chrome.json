@@ -1,5 +1,5 @@
 {
-   "checksum": "b8f5c5583d5f555981ab7875e0fc2025",
+   "checksum": "9abd6c8d528407ec5b3d90349d3fb702",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -494,6 +494,17 @@
             "name": "AI Agent App Template",
             "type": "url",
             "url": "https://chatgpt.com/c/68388564-cfc8-8008-93f3-693a95ec1a5e"
+         }, {
+            "date_added": "13393091913482897",
+            "date_last_used": "0",
+            "guid": "63b848db-1fa8-48c9-b192-84799d52ac76",
+            "id": "56",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Redirecting",
+            "type": "url",
+            "url": "https://login.microsoftonline.com/8f3e36ea-8039-4b40-81a7-7dc0599e8645/oauth2/authorize?client_id=84212208-f862-4ebf-97cb-5356d9185123&redirect_uri=https%3A%2F%2Fsphere.spglobal.com%2F&response_type=code%20id_token&scope=openid%20profile%20email&state=OpenIdConnect.AuthenticationProperties%3D5_G5fRQR-uCm3rsL_Dunhip9wWty9QMd6rNO1CGt40QYFFgdSKw4OmvD6LgjZma0rF_Yy2F0gk8nD49-axLrcWY_t2UlVU4xg-aPLdNDHfVn4WWks1U4zAFedfo07ubQWUFg1-hlSoQrr58KGD38MqhRG4YflFyRVe01-Nsmb1k4yV4GwC0sj4ziKr3JOE37E01OrgjJjBjxBx0TlY4n5zHHbvQWx-9UWjSrg5PBCUQvZqtt7dHnRXd32CmHotQR&response_mode=form_post&nonce=638842151110369567.OGNhZDE0YTYtYjg4Yy00ODY3LWJlZjMtNTAwZWIyYzU4Mjc4MjVlYWJmYmItYmE0MS00ZmNhLWE3OWQtMmQ3YTc3ZDk4NWRj&x-client-SKU=ID_NET472&x-client-ver=7.5.1.0"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
