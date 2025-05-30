@@ -1,5 +1,5 @@
 {
-   "checksum": "a0ef1603c7675e98a46daa420a64cd25",
+   "checksum": "7f407ea6744342f79f7945bfcf6461cf",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -31,7 +31,7 @@
             "url": "https://photos.google.com/"
          }, {
             "date_added": "13374852411966753",
-            "date_last_used": "13375200114599934",
+            "date_last_used": "13393088090493434",
             "guid": "db50be11-df18-4d76-9283-027db6c7a90d",
             "id": "8",
             "meta_info": {
@@ -53,7 +53,7 @@
             "url": "https://www.linkedin.com/in/ankittejyadav/"
          }, {
             "date_added": "13323979699841060",
-            "date_last_used": "13393077146912673",
+            "date_last_used": "13393087813071387",
             "guid": "0c5d6fec-7d83-483d-b210-6015b6461898",
             "id": "10",
             "meta_info": {
@@ -484,20 +484,20 @@
             "type": "url",
             "url": "https://sqlpremierleague.com/"
          }, {
-            "date_added": "13393087704468227",
+            "date_added": "13393088583966072",
             "date_last_used": "0",
-            "guid": "3c3757f0-ac32-482d-9546-d55a1853d7dd",
+            "guid": "9bace3bf-0299-48e3-bcfc-8140ebd6c587",
             "id": "54",
             "meta_info": {
                "power_bookmark_meta": ""
             },
-            "name": "Home",
+            "name": "New Tab",
             "type": "url",
-            "url": "https://sphere.spglobal.com/"
+            "url": "chrome://newtab/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
-         "date_modified": "13393087704468227",
+         "date_modified": "13393088583966072",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
