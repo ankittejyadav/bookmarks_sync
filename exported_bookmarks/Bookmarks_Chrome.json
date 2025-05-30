@@ -1,5 +1,5 @@
 {
-   "checksum": "aade1e38e46bc768ce5d0710a05690ae",
+   "checksum": "94d8ee46494742de9d495fc71488a2bd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -31,7 +31,7 @@
             "url": "https://photos.google.com/"
          }, {
             "date_added": "13374852411966753",
-            "date_last_used": "13393088090493434",
+            "date_last_used": "13393107516897958",
             "guid": "db50be11-df18-4d76-9283-027db6c7a90d",
             "id": "8",
             "meta_info": {
@@ -42,7 +42,7 @@
             "url": "https://www.youtube.com/feed/subscriptions"
          }, {
             "date_added": "13323970298728272",
-            "date_last_used": "13390658472733097",
+            "date_last_used": "13393107509178774",
             "guid": "7905486e-c552-4975-849e-84f4c42f1a67",
             "id": "9",
             "meta_info": {
@@ -53,7 +53,7 @@
             "url": "https://www.linkedin.com/in/ankittejyadav/"
          }, {
             "date_added": "13323979699841060",
-            "date_last_used": "13393106601421801",
+            "date_last_used": "13393107501073533",
             "guid": "0c5d6fec-7d83-483d-b210-6015b6461898",
             "id": "10",
             "meta_info": {
@@ -134,7 +134,7 @@
             "url": "https://hip2save.com/?utm_source=google&utm_campaign=pmax_homepage&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwhb60BhClARIsABGGtw_7fem3RLNryneC-UVwwEGdx8bQR1cQxa2JHgi9_KRmPK5BbK66F6IaAvaBEALw_wcB"
          }, {
             "date_added": "13366296218000000",
-            "date_last_used": "13393107224680009",
+            "date_last_used": "13393107413581422",
             "guid": "37b4d2ac-bca3-407c-9e8b-76c2aaa351f1",
             "id": "20",
             "name": "",
@@ -142,7 +142,7 @@
             "url": "https://hip2save.com/freebies/"
          }, {
             "date_added": "13365986706000000",
-            "date_last_used": "13375279022703600",
+            "date_last_used": "13393107436292721",
             "guid": "0978a5c2-3e78-4490-b89b-2ac09186e326",
             "id": "21",
             "name": "",
@@ -494,17 +494,6 @@
             "name": "",
             "type": "url",
             "url": "https://gemini.google.com/app"
-         }, {
-            "date_added": "13393102811210288",
-            "date_last_used": "0",
-            "guid": "b3ac6427-09c9-4dfb-837f-e8cd71449f44",
-            "id": "58",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "New Tab",
-            "type": "url",
-            "url": "chrome://newtab/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
