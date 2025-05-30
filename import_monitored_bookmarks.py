@@ -1,12 +1,12 @@
 import time
 import subprocess
-import hashlib
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from bookmarks_import import import_bookmarks
 
 
+# Helper to check if Chrome is running on Windows
 def chrome_is_running():
     proc = subprocess.run(
         ["tasklist", "/FI", "IMAGENAME eq chrome.exe"], capture_output=True, text=True
@@ -14,30 +14,24 @@ def chrome_is_running():
     return "chrome.exe" in proc.stdout
 
 
-def get_checksum(path):
-    try:
-        with open(path, "rb") as f:
-            return hashlib.md5(f.read()).hexdigest()
-    except FileNotFoundError:
-        return None
-
-
 class ImportChangeHandler(FileSystemEventHandler):
-    def __init__(self, bookmarks_file):
-        self.bookmarks_file = Path(bookmarks_file)
-        self.last_checksum = get_checksum(self.bookmarks_file)
+    def __init__(self):
+        self.last_import_time = 0
 
     def on_modified(self, event):
-        if Path(event.src_path) != self.bookmarks_file:
+        # Only react to our synced JSON file
+        if not event.src_path.endswith("Bookmarks_Chrome.json"):
             return
 
-        current_checksum = get_checksum(self.bookmarks_file)
-        if current_checksum == self.last_checksum:
-            return  # No real change
-        self.last_checksum = current_checksum
+        # Debounce: only run once per actual file update
+        mtime = Path(event.src_path).stat().st_mtime
+        if mtime == self.last_import_time:
+            return
+        self.last_import_time = mtime
 
         print("🔔 Detected new synced bookmarks")
 
+        # Wait until Chrome is closed
         while chrome_is_running():
             print("⏳ Chrome is open, delaying import for 10s…")
             time.sleep(10)
@@ -55,10 +49,12 @@ def git_pull_changes():
 
 
 if __name__ == "__main__":
+    # Path to the synced export JSON
     bookmarks_file = Path.cwd() / "exported_bookmarks" / "Bookmarks_Chrome.json"
     bookmarks_dir = bookmarks_file.parent
 
-    event_handler = ImportChangeHandler(bookmarks_file)
+    # Set up the file watcher
+    event_handler = ImportChangeHandler()
     observer = Observer()
     observer.schedule(event_handler, path=str(bookmarks_dir), recursive=False)
 
@@ -66,9 +62,10 @@ if __name__ == "__main__":
     observer.start()
 
     try:
+        # Periodically pull from GitHub
         while True:
             git_pull_changes()
-            time.sleep(30)
+            time.sleep(30)  # Pull every 30 seconds
     except KeyboardInterrupt:
         observer.stop()
 
