@@ -1,5 +1,5 @@
 {
-   "checksum": "fe277576c8af28ffb31d356201bb022b",
+   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -483,21 +483,10 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
-         }, {
-            "date_added": "13393088965089139",
-            "date_last_used": "0",
-            "guid": "646c37d1-bb15-4a16-befc-7e6f74114755",
-            "id": "55",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "New Tab",
-            "type": "url",
-            "url": "chrome://newtab/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
-         "date_modified": "13393088965089139",
+         "date_modified": "13393088583966072",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
