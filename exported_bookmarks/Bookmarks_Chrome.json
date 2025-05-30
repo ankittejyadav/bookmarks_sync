@@ -1,5 +1,5 @@
 {
-   "checksum": "86802a813a3737e01238d2d215a8933d",
+   "checksum": "e3d10a856f3944fcd8d1e31be67cac0c",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -491,7 +491,7 @@
             "meta_info": {
                "power_bookmark_meta": ""
             },
-            "name": "AI Agent App Template",
+            "name": "AI Agent App",
             "type": "url",
             "url": "https://chatgpt.com/c/68388564-cfc8-8008-93f3-693a95ec1a5e"
          } ],
