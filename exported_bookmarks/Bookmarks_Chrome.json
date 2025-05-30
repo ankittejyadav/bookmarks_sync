@@ -1,5 +1,5 @@
 {
-   "checksum": "6fddbcce92a553cd8ac5145d85edca28",
+   "checksum": "148322c0dac00ba1acf83f5190053136",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -573,17 +573,6 @@
             "name": "Settings | Cursor - The AI Code Editor",
             "type": "url",
             "url": "https://www.cursor.com/settings"
-         }, {
-            "date_added": "13393043530165522",
-            "date_last_used": "0",
-            "guid": "2adf3a1f-9255-45bf-a679-0ffda19b6664",
-            "id": "116",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "New Tab",
-            "type": "url",
-            "url": "chrome://newtab/"
          } ],
          "date_added": "13374766956952149",
          "date_last_used": "0",
