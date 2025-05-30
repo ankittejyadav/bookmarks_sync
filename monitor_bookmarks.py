@@ -1,4 +1,5 @@
 import time
+import subprocess
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -13,6 +14,17 @@ class BookmarkChangeHandler(FileSystemEventHandler):
         if event.src_path.endswith("Bookmarks"):
             print("📌 Bookmarks changed, exporting...")
             export_bookmarks(self.export_dir)
+            git_push_changes()
+
+
+def git_push_changes():
+    try:
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", "🔁 Auto-sync new bookmark"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("🚀 Pushed to GitHub")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Git push failed: {e}")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-   "checksum": "148322c0dac00ba1acf83f5190053136",
+   "checksum": "6fddbcce92a553cd8ac5145d85edca28",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -53,7 +53,7 @@
             "url": "https://www.linkedin.com/in/ankittejyadav/"
          }, {
             "date_added": "13323979699841060",
-            "date_last_used": "13393033184781928",
+            "date_last_used": "13393042527882244",
             "guid": "0c5d6fec-7d83-483d-b210-6015b6461898",
             "id": "8",
             "meta_info": {
@@ -86,7 +86,7 @@
             "url": "https://leetcode.com/ankittejyadav/"
          }, {
             "date_added": "13333060115150312",
-            "date_last_used": "13393032439835004",
+            "date_last_used": "13393041586369361",
             "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
             "id": "11",
             "meta_info": {
@@ -573,10 +573,21 @@
             "name": "Settings | Cursor - The AI Code Editor",
             "type": "url",
             "url": "https://www.cursor.com/settings"
+         }, {
+            "date_added": "13393043530165522",
+            "date_last_used": "0",
+            "guid": "2adf3a1f-9255-45bf-a679-0ffda19b6664",
+            "id": "116",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
          } ],
          "date_added": "13374766956952149",
          "date_last_used": "0",
-         "date_modified": "13393035917957358",
+         "date_modified": "13393043530165522",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
