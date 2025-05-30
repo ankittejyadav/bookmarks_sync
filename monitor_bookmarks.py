@@ -1,53 +1,57 @@
-import time
-import subprocess
+import time, subprocess
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from bookmarks_export import export_bookmarks, get_chrome_bookmarks_path
+from checksum_utils import calc_checksum, read_last, write_last
+
+# Where we store the last checksum of Chrome's Bookmarks after import,
+# so we can skip mirrored writes.
+STATE_FILE = Path.cwd() / "state" / "last_import_checksum.txt"
+EXPORT_DIR = Path.cwd() / "exported_bookmarks"
 
 
 class BookmarkChangeHandler(FileSystemEventHandler):
-    def __init__(self, export_dir):
-        self.export_dir = Path(export_dir)
+    def __init__(self):
+        self.chrome_file = get_chrome_bookmarks_path()
+        EXPORT_DIR.mkdir(parents=True, exist_ok=True)
 
-    def on_any_event(self, event):
+    def on_modified(self, event):
         if event.is_directory:
             return
+        if not event.src_path.endswith("Bookmarks"):
+            return
 
-        if any(
-            event.src_path.endswith(name) for name in ["Bookmarks", "Bookmarks-journal"]
-        ):
-            print("📌 Bookmarks file event detected, exporting...")
-            export_bookmarks(self.export_dir)
-            git_push_changes()
+        # 1) Compute checksum of Chrome's live Bookmarks file
+        current = calc_checksum(self.chrome_file)
+        # 2) Load the checksum we recorded after last import
+        last_import = read_last(STATE_FILE)
+        if current == last_import:
+            print("🔒 Change matches last import → skipping export")
+            return
 
+        # 3) It's a genuine user edit → export and push
+        print("📌 Bookmarks changed, exporting…")
+        export_bookmarks(EXPORT_DIR)
 
-def git_push_changes():
-    try:
-        subprocess.run(["git", "add", "."], check=True)
-        subprocess.run(["git", "commit", "-m", "🔁 Auto-sync new bookmark"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("🚀 Pushed to GitHub")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git push failed: {e}")
+        subprocess.run(["git", "add", "."], check=False)
+        subprocess.run(["git", "commit", "-m", "🔁 Auto‑sync export"], check=False)
+        subprocess.run(["git", "push"], check=False)
+        print("🚀 Export pushed to GitHub")
+
+        # 4) Update the state file so future mirrored writes are skipped
+        write_last(STATE_FILE, current)
 
 
 if __name__ == "__main__":
-    bookmarks_path = get_chrome_bookmarks_path()
-    folder_to_watch = bookmarks_path.parent
-    export_dir = Path.cwd() / "exported_bookmarks"
-
-    event_handler = BookmarkChangeHandler(export_dir)
+    handler = BookmarkChangeHandler()
     observer = Observer()
-    observer.schedule(event_handler, path=str(folder_to_watch), recursive=True)
-
-    print(f"👀 Watching for changes in: {folder_to_watch}")
+    observer.schedule(handler, str(handler.chrome_file.parent), recursive=False)
+    print(f"👀 Watching Chrome bookmarks in {handler.chrome_file.parent}")
     observer.start()
-
     try:
         while True:
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
-
     observer.join()
