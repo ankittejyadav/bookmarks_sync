@@ -1,5 +1,5 @@
 {
-   "checksum": "b8f5c5583d5f555981ab7875e0fc2025",
+   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -483,17 +483,6 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
-         }, {
-            "date_added": "13393093812010393",
-            "date_last_used": "0",
-            "guid": "fea67e0f-56a1-45a3-b048-0b51ab267a6b",
-            "id": "54",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "AI Agent App Template",
-            "type": "url",
-            "url": "https://chatgpt.com/c/68388564-cfc8-8008-93f3-693a95ec1a5e"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
