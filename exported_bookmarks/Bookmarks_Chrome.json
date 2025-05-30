@@ -1,5 +1,5 @@
 {
-   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
+   "checksum": "e3d10a856f3944fcd8d1e31be67cac0c",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -483,6 +483,17 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
+         }, {
+            "date_added": "13393097049209292",
+            "date_last_used": "0",
+            "guid": "58d186c8-c580-4021-94d2-b00edd20e004",
+            "id": "56",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AI Agent App",
+            "type": "url",
+            "url": "https://chatgpt.com/c/68388564-cfc8-8008-93f3-693a95ec1a5e"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
