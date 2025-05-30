@@ -1,5 +1,5 @@
 {
-   "checksum": "94d8ee46494742de9d495fc71488a2bd",
+   "checksum": "0c012d1b9174ead189a48c26400d795f",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -474,7 +474,7 @@
             "url": "https://sqlpremierleague.com/"
          }, {
             "date_added": "13333060115150312",
-            "date_last_used": "13393097882549119",
+            "date_last_used": "13393107641388875",
             "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
             "id": "13",
             "meta_info": {
@@ -485,7 +485,7 @@
             "url": "https://chat.openai.com/"
          }, {
             "date_added": "13393098189294120",
-            "date_last_used": "13393106496739497",
+            "date_last_used": "13393107630740303",
             "guid": "e0cbd9e2-bb84-4725-a5d2-def8a4bce6e6",
             "id": "57",
             "meta_info": {
@@ -494,10 +494,21 @@
             "name": "",
             "type": "url",
             "url": "https://gemini.google.com/app"
+         }, {
+            "date_added": "13393107650160527",
+            "date_last_used": "0",
+            "guid": "4fa5aeb6-9724-4c9b-ae52-698fdaa607e9",
+            "id": "59",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
-         "date_modified": "13393102811210288",
+         "date_modified": "13393107650160527",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
