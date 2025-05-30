@@ -1,5 +1,5 @@
 {
-   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
+   "checksum": "b8f5c5583d5f555981ab7875e0fc2025",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -86,7 +86,7 @@
             "url": "https://leetcode.com/ankittejyadav/"
          }, {
             "date_added": "13333060115150312",
-            "date_last_used": "13393090998563892",
+            "date_last_used": "13393091733892677",
             "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
             "id": "13",
             "meta_info": {
@@ -483,10 +483,21 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
+         }, {
+            "date_added": "13393091853209449",
+            "date_last_used": "0",
+            "guid": "331eccb4-4067-43f8-818a-66f76c0e8882",
+            "id": "54",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AI Agent App Template",
+            "type": "url",
+            "url": "https://chatgpt.com/c/68388564-cfc8-8008-93f3-693a95ec1a5e"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
-         "date_modified": "13393090753520602",
+         "date_modified": "13393091853209449",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
