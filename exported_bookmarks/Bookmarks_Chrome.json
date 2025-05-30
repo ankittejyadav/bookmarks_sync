@@ -1,5 +1,5 @@
 {
-   "checksum": "a0ef1603c7675e98a46daa420a64cd25",
+   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -483,17 +483,6 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
-         }, {
-            "date_added": "13393092519403983",
-            "date_last_used": "0",
-            "guid": "0b727ebc-7321-4b25-a52a-0c01e3c9e547",
-            "id": "54",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Home",
-            "type": "url",
-            "url": "https://sphere.spglobal.com/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
