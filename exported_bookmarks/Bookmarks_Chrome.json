@@ -1,5 +1,5 @@
 {
-   "checksum": "7f407ea6744342f79f7945bfcf6461cf",
+   "checksum": "8c5ee0eccd11487bafd896c10f8f35e4",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -86,7 +86,7 @@
             "url": "https://leetcode.com/ankittejyadav/"
          }, {
             "date_added": "13333060115150312",
-            "date_last_used": "13393089641116223",
+            "date_last_used": "13393090275999868",
             "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
             "id": "13",
             "meta_info": {
@@ -483,17 +483,6 @@
             "name": "",
             "type": "url",
             "url": "https://sqlpremierleague.com/"
-         }, {
-            "date_added": "13393090197827634",
-            "date_last_used": "0",
-            "guid": "e673f4f1-fb58-43cc-a6c3-9102081afd80",
-            "id": "54",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "New Tab",
-            "type": "url",
-            "url": "chrome://newtab/"
          } ],
          "date_added": "13393075811087591",
          "date_last_used": "0",
