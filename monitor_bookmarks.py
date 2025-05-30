@@ -1,3 +1,29 @@
+import threading
+
+
+class Debouncer:
+    def __init__(self, delay, action):
+        self.delay = delay
+        self.action = action
+        self.timer = None
+        self.lock = threading.Lock()
+
+    def trigger(self, *args, **kwargs):
+        with self.lock:
+            if self.timer:
+                self.timer.cancel()
+            self.timer = threading.Timer(
+                self.delay, self._run, args=args, kwargs=kwargs
+            )
+            self.timer.daemon = True
+            self.timer.start()
+
+    def _run(self, *args, **kwargs):
+        with self.lock:
+            self.timer = None
+        self.action(*args, **kwargs)
+
+
 import time
 import subprocess
 from pathlib import Path
@@ -5,9 +31,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from bookmarks_export import export_bookmarks, get_chrome_bookmarks_path
 
-# suppression window in seconds
-SUPPRESS_AFTER_IMPORT = 5
-last_import_time = 0
+# Debounce class as above…
 
 
 def git_push_changes():
@@ -17,32 +41,34 @@ def git_push_changes():
     print("🚀 Pushed to GitHub")
 
 
+def do_export(export_dir):
+    print("📌 Debounced export triggered")
+    export_bookmarks(export_dir)
+    git_push_changes()
+
+
 class BookmarkChangeHandler(FileSystemEventHandler):
     def __init__(self, export_dir):
         self.export_dir = Path(export_dir)
+        # 2s debounce
+        self.debouncer = Debouncer(2.0, lambda: do_export(self.export_dir))
 
     def on_modified(self, event):
-        global last_import_time
-        now = time.time()
-        # skip if we just imported
-        if now - last_import_time < SUPPRESS_AFTER_IMPORT:
-            return
-
+        # only react to Chrome's Bookmarks file
         if event.src_path.endswith("Bookmarks"):
-            print("📌 Detected Chrome bookmark change, exporting…")
-            export_bookmarks(self.export_dir)
-            git_push_changes()
+            self.debouncer.trigger()
 
 
 if __name__ == "__main__":
+    bookmarks_path = get_chrome_bookmarks_path()
+    folder_to_watch = bookmarks_path.parent
     export_dir = Path.cwd() / "exported_bookmarks"
-    bookmarks_path = get_chrome_bookmarks_path().parent
 
     handler = BookmarkChangeHandler(export_dir)
     obs = Observer()
-    obs.schedule(handler, str(bookmarks_path), recursive=False)
+    obs.schedule(handler, str(folder_to_watch), recursive=False)
 
-    print(f"👀 Watching Chrome bookmarks in: {bookmarks_path}")
+    print(f"👀 Watching for changes in: {folder_to_watch}")
     obs.start()
     try:
         while True:
