@@ -4,19 +4,6 @@ import shutil
 import platform
 from datetime import datetime
 from pathlib import Path
-import time
-
-
-def wait_for_file_access(file_path, timeout=10):
-    file_path = Path(file_path)
-    start = time.time()
-    while time.time() - start < timeout:
-        try:
-            with open(file_path, "rb"):
-                return True
-        except (PermissionError, OSError):
-            time.sleep(0.5)
-    raise Exception(f"❌ Timeout: Cannot access file {file_path}")
 
 
 def get_chrome_bookmarks_path():
@@ -36,12 +23,9 @@ def get_chrome_bookmarks_path():
 
 def export_bookmarks(export_path):
     bookmarks_file = get_chrome_bookmarks_path()
-    wait_for_file_access(bookmarks_file)  # Wait for file to be free
-
     export_path = Path(export_path).expanduser()
     export_path.mkdir(parents=True, exist_ok=True)
-    export_file = export_path / "Bookmarks_Chrome.json"
-
+    export_file = export_path / f"Bookmarks_Chrome.json"
     shutil.copy2(bookmarks_file, export_file)
     print(f"✅ Exported: {export_file}")
     return export_file
