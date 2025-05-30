@@ -1,0 +1,607 @@
+{
+   "checksum": "148322c0dac00ba1acf83f5190053136",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13300978757731051",
+            "date_last_used": "13392825300932892",
+            "guid": "270adedd-993e-4c8d-a9df-7eba3c1ac8a0",
+            "id": "5",
+            "name": "",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?ogbl#inbox"
+         }, {
+            "date_added": "13304004342792774",
+            "date_last_used": "13392825305401832",
+            "guid": "e3416936-43c7-4c71-a85e-ae91cfe2c85e",
+            "id": "6",
+            "name": "",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/my-drive"
+         }, {
+            "date_added": "13341626897678784",
+            "date_last_used": "13392825310603987",
+            "guid": "3df5810d-dbb4-4874-b513-f305990e1547",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://photos.google.com/"
+         }, {
+            "date_added": "13374852411966753",
+            "date_last_used": "13392994237393340",
+            "guid": "db50be11-df18-4d76-9283-027db6c7a90d",
+            "id": "86",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.youtube.com/feed/subscriptions"
+         }, {
+            "date_added": "13323970298728272",
+            "date_last_used": "13392993890677113",
+            "guid": "7905486e-c552-4975-849e-84f4c42f1a67",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.linkedin.com/in/ankittejyadav/"
+         }, {
+            "date_added": "13323979699841060",
+            "date_last_used": "13393033184781928",
+            "guid": "0c5d6fec-7d83-483d-b210-6015b6461898",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://github.com/ankittejyadav"
+         }, {
+            "date_added": "13333725038836670",
+            "date_last_used": "13391976462672067",
+            "guid": "d0fe203a-c29d-46fa-8102-af51ca0b98c1",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://neetcode.io/practice"
+         }, {
+            "date_added": "13334786442982988",
+            "date_last_used": "13392304327067451",
+            "guid": "b2fd58c1-9917-4570-bb54-c5f589217406",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://leetcode.com/ankittejyadav/"
+         }, {
+            "date_added": "13333060115150312",
+            "date_last_used": "13393032439835004",
+            "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13386259596760933",
+            "date_last_used": "13391976368779920",
+            "guid": "3001c5ff-2936-4d13-b2ff-cf6ad83da1df",
+            "id": "102",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://claude.ai/new"
+         }, {
+            "date_added": "13300935232000000",
+            "date_last_used": "13391976364480041",
+            "guid": "82ab46b0-fa04-41b9-884d-956100109c15",
+            "id": "13",
+            "name": "",
+            "type": "url",
+            "url": "https://learn.bu.edu/ultra/course"
+         }, {
+            "date_added": "13301271718000000",
+            "date_last_used": "13392585289545961",
+            "guid": "df230046-1269-4f44-a604-29ca6313a1ee",
+            "id": "14",
+            "name": "",
+            "type": "url",
+            "url": "https://bu-cogneuro.sona-systems.com/Main.aspx?p_log=ankit"
+         }, {
+            "date_added": "13304175634000000",
+            "date_last_used": "13374152820420677",
+            "guid": "2c97b0d0-761a-41db-97e5-04d76165e7b5",
+            "id": "15",
+            "name": "",
+            "type": "url",
+            "url": "https://bu.joinhandshake.com/stu"
+         }, {
+            "date_added": "13373213128000000",
+            "date_last_used": "13392825506630141",
+            "guid": "89e5e509-e4c2-43d1-a6c1-f6f14f5889e7",
+            "id": "54",
+            "name": "",
+            "type": "url",
+            "url": "https://app.pluralsight.com/library/"
+         }, {
+            "date_added": "13359846044000000",
+            "date_last_used": "13391976326856021",
+            "guid": "b8db8d1e-dd97-4790-8bab-9bf084256485",
+            "id": "79",
+            "name": "",
+            "type": "url",
+            "url": "https://colab.research.google.com/"
+         }, {
+            "date_added": "13365175681000000",
+            "date_last_used": "13392746803170509",
+            "guid": "0542dbe5-1543-4e2c-9ace-e6018b3a2dc3",
+            "id": "80",
+            "name": "",
+            "type": "url",
+            "url": "https://hip2save.com/?utm_source=google&utm_campaign=pmax_homepage&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwhb60BhClARIsABGGtw_7fem3RLNryneC-UVwwEGdx8bQR1cQxa2JHgi9_KRmPK5BbK66F6IaAvaBEALw_wcB"
+         }, {
+            "date_added": "13366296218000000",
+            "date_last_used": "13392915787985008",
+            "guid": "37b4d2ac-bca3-407c-9e8b-76c2aaa351f1",
+            "id": "82",
+            "name": "Free",
+            "type": "url",
+            "url": "https://hip2save.com/freebies/"
+         }, {
+            "date_added": "13365986706000000",
+            "date_last_used": "13391977949792639",
+            "guid": "0978a5c2-3e78-4490-b89b-2ac09186e326",
+            "id": "81",
+            "name": "",
+            "type": "url",
+            "url": "https://slickdeals.net/"
+         }, {
+            "children": [ {
+               "date_added": "13353712739515430",
+               "date_last_used": "0",
+               "guid": "3f64aec8-88bb-42bd-9ab9-b1da261326a1",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon | OA SDE1 | April 2022 - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/1985393/amazon-oa-sde1-april-2022"
+            }, {
+               "date_added": "13353712833179444",
+               "date_last_used": "0",
+               "guid": "f948f2ac-37a7-4ab6-ab14-1ec0562083d0",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "swolecoder/Amazon-Online-Assessment-Questions-LeetCode: Amazon Online Assessment Questions",
+               "type": "url",
+               "url": "https://github.com/swolecoder/Amazon-Online-Assessment-Questions-LeetCode"
+            }, {
+               "date_added": "13353713345300589",
+               "date_last_used": "0",
+               "guid": "4cddd99a-8d12-4a76-a085-251fd4f06c67",
+               "id": "19",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/4704126/Amazon-OA/"
+            }, {
+               "date_added": "13353713481575166",
+               "date_last_used": "0",
+               "guid": "a53baa13-5031-42ce-aa78-1ff1f3500170",
+               "id": "20",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA 2024 - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/4777799/Amazon-OA-2024/"
+            }, {
+               "date_added": "13353713544140730",
+               "date_last_used": "0",
+               "guid": "4c211e41-f6dc-4281-9fee-0ea798760434",
+               "id": "21",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA SDE2 - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/4709758/Amazon-OA-SDE2/"
+            }, {
+               "date_added": "13353713883491206",
+               "date_last_used": "0",
+               "guid": "96aab13b-1330-458c-844a-5f13b6394c8b",
+               "id": "22",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA 2023 - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/4288976/Amazon-OA-2023/"
+            }, {
+               "date_added": "13353714571049007",
+               "date_last_used": "0",
+               "guid": "b5080327-04a4-48cd-9148-3ec48f8bb4a0",
+               "id": "23",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon oa sde ii, advice? : r/leetcode",
+               "type": "url",
+               "url": "https://www.reddit.com/r/leetcode/comments/1aiff9h/amazon_oa_sde_ii_advice/"
+            }, {
+               "date_added": "13353715237129069",
+               "date_last_used": "0",
+               "guid": "c5d0eaa9-3e2f-4ce7-8787-8de0e445dc9c",
+               "id": "24",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon top 50 questions : r/leetcode",
+               "type": "url",
+               "url": "https://www.reddit.com/r/leetcode/comments/15sjhh3/amazon_top_50_questions/"
+            }, {
+               "date_added": "13353715275428262",
+               "date_last_used": "0",
+               "guid": "30a3f6c3-6a07-4bed-bb22-5226944c6b2f",
+               "id": "25",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Solved The interns at Amazon were assigned a task to analyze | Chegg.com",
+               "type": "url",
+               "url": "https://www.chegg.com/homework-help/questions-and-answers/interns-amazon-assigned-task-analyze-stock-prices-amazon-period-n-months-month-m-analysis--q100397822"
+            }, {
+               "date_added": "13353715810675149",
+               "date_last_used": "0",
+               "guid": "789feac3-7925-495e-b205-8a6f7dd38a2e",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/4749207/Amazon-OA"
+            }, {
+               "date_added": "13353715819408725",
+               "date_last_used": "0",
+               "guid": "e9b0c5e3-dcca-46a2-9ce4-18387b75bc6e",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon New Grad OA 2: SDE Work Simulation and Workstyles Assessments : r/csMajors",
+               "type": "url",
+               "url": "https://www.reddit.com/r/csMajors/comments/puyv1p/amazon_new_grad_oa_2_sde_work_simulation_and/"
+            }, {
+               "date_added": "13353715822798017",
+               "date_last_used": "0",
+               "guid": "c84472ef-0e52-4716-bcfd-7908bb741e70",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit - LeetCode",
+               "type": "url",
+               "url": "https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/"
+            }, {
+               "date_added": "13353720449600446",
+               "date_last_used": "0",
+               "guid": "77ae5822-c1dc-424b-b7c9-8428ad432a2b",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "vvsaichaitanya/Amazon_OA_Java: This Repository contains the java solutions for the Amazon OA Questions.",
+               "type": "url",
+               "url": "https://github.com/vvsaichaitanya/Amazon_OA_Java"
+            }, {
+               "date_added": "13353720481897561",
+               "date_last_used": "0",
+               "guid": "012b4cd3-4dff-4887-91a1-2c1918a72b5e",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "LeetCodeSummary/Amazon OA3.md at main · xiaoshi22/LeetCodeSummary",
+               "type": "url",
+               "url": "https://github.com/xiaoshi22/LeetCodeSummary/blob/main/Amazon%20OA3.md"
+            }, {
+               "date_added": "13353720973125672",
+               "date_last_used": "0",
+               "guid": "2c1f7e0a-4bf3-4fae-84a3-025dde729d07",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA Questions | Robin's site",
+               "type": "url",
+               "url": "https://roooooobin.github.io/2020/06/03/Amazon-OA-Questions/"
+            }, {
+               "date_added": "13353899597758035",
+               "date_last_used": "0",
+               "guid": "8da764f8-483d-4cd0-a9b2-fdca8625bdee",
+               "id": "32",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Leetcode Patterns",
+               "type": "url",
+               "url": "https://seanprashad.com/leetcode-patterns/"
+            }, {
+               "date_added": "13353899609819094",
+               "date_last_used": "0",
+               "guid": "bc371081-7dd6-45c2-be6e-a171036d4ba3",
+               "id": "33",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon LPs Compiled - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-experience/1149636/Amazon-LPs-Compiled"
+            }, {
+               "date_added": "13353947164989172",
+               "date_last_used": "0",
+               "guid": "157baae3-6037-4300-a395-33f1f3e2f846",
+               "id": "34",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Product and System Design Questions - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/system-design/4300266/Product-and-System-Design-Questions/"
+            }, {
+               "date_added": "13354043100700399",
+               "date_last_used": "0",
+               "guid": "2f3cc6ee-3e7f-4c1f-8c86-5d8525b1d883",
+               "id": "35",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(1) My Amazon SDE 2 Interview Experience | LinkedIn",
+               "type": "url",
+               "url": "https://www.linkedin.com/pulse/my-amazon-sde-2-interview-experience-jinesh-shah/"
+            }, {
+               "date_added": "13354047027342623",
+               "date_last_used": "0",
+               "guid": "794c5bcc-29d2-4f8f-ac9e-3e9d87de6ba5",
+               "id": "36",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OOD [Design Unix File Search API] - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/609070/Amazon-OOD-Design-Unix-File-Search-API"
+            }, {
+               "date_added": "13353943847198366",
+               "date_last_used": "13354057989043082",
+               "guid": "6c3e600a-de24-4912-a46d-2e968fdb5237",
+               "id": "37",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "amazon sde OA 90 min record - csOAhelp|代码代写|面试OA助攻|面试代面|作业实验代写|考试高分代考",
+               "type": "url",
+               "url": "https://csoahelp.com/2023/11/10/amazon-sde-oa-90-min-record/"
+            }, {
+               "date_added": "13385690655026485",
+               "date_last_used": "0",
+               "guid": "9a9460af-a67c-4100-bbe7-11456741565b",
+               "id": "99",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon Behavioral Interview Questions and Answers (2025 Guide) - Exponent",
+               "type": "url",
+               "url": "https://www.tryexponent.com/blog/how-to-nail-amazons-behavioral-interview-questions"
+            }, {
+               "date_added": "13385690680869449",
+               "date_last_used": "0",
+               "guid": "3153d08b-c9db-41ec-a891-5a3bf80ba02b",
+               "id": "100",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon Behavioral Interview Questions (+ answers, method) - IGotAnOffer",
+               "type": "url",
+               "url": "https://igotanoffer.com/blogs/tech/amazon-behavioral-interview"
+            } ],
+            "date_added": "13353712749957194",
+            "date_last_used": "0",
+            "date_modified": "13386259596760933",
+            "guid": "23577381-6c9e-4e25-8e19-52300e8a4ceb",
+            "id": "16",
+            "name": "Amazon",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13354057970682490",
+               "date_last_used": "13374150418799514",
+               "guid": "af0997a2-46db-4935-bc3e-8c1ed1ea80fa",
+               "id": "39",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Document",
+               "type": "url",
+               "url": "https://glucko.github.io/codeprep/"
+            }, {
+               "date_added": "13350876899273558",
+               "date_last_used": "13374150378195042",
+               "guid": "667a840c-bc47-4d6a-b82a-b09ebc310fc0",
+               "id": "40",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "LC",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986"
+            } ],
+            "date_added": "13374150412786339",
+            "date_last_used": "0",
+            "date_modified": "13374150412786339",
+            "guid": "066e8374-24f7-45c3-84b8-d75b1535e6b2",
+            "id": "38",
+            "name": "Coding",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13330623518000000",
+               "date_last_used": "0",
+               "guid": "7ac45f16-4fac-40d9-8690-e08e362afc31",
+               "id": "42",
+               "name": "Login/SEVP Portal",
+               "type": "url",
+               "url": "https://www.sevp.ice.gov/opt/#/login"
+            }, {
+               "date_added": "13336021571000000",
+               "date_last_used": "13375293127702291",
+               "guid": "2fd991c8-c575-443b-acab-6277f3484b15",
+               "id": "43",
+               "name": "Address and Phone Display",
+               "type": "url",
+               "url": "https://www.bu.edu/link/bin/uiscgi_studentlink.pl/1691547967?ModuleName=address/main.pl"
+            }, {
+               "date_added": "13364735770000000",
+               "date_last_used": "13385854437161232",
+               "guid": "b0005517-23d0-4165-8b15-14f6677a13ef",
+               "id": "44",
+               "name": "ISSO",
+               "type": "url",
+               "url": "https://issoportal.bu.edu/_portal/"
+            } ],
+            "date_added": "13374150437250053",
+            "date_last_used": "0",
+            "date_modified": "13374150437250053",
+            "guid": "c4c2459b-1006-4799-809b-56cb658a65f9",
+            "id": "41",
+            "name": "Visa",
+            "type": "folder"
+         }, {
+            "date_added": "13389573447049230",
+            "date_last_used": "13389714773529530",
+            "guid": "9de9db02-9724-44b2-b27c-36089b1d610e",
+            "id": "104",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.typing.com/student/lessons"
+         }, {
+            "date_added": "13374973968446021",
+            "date_last_used": "13391977180020748",
+            "guid": "c7d8d708-268d-4e26-9612-fc54d1231a76",
+            "id": "88",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Outlier",
+            "type": "url",
+            "url": "https://app.outlier.ai/en/expert?utm_campaign=website&utm_medium=email&utm_source=sendgrid.com"
+         }, {
+            "date_added": "13376524956441877",
+            "date_last_used": "0",
+            "guid": "e335d1a2-64ad-4bc6-ab81-1087a3f62455",
+            "id": "90",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SQL OnLine IDE",
+            "type": "url",
+            "url": "https://sqliteonline.com/"
+         }, {
+            "date_added": "13379971145572550",
+            "date_last_used": "13380417521436533",
+            "guid": "5b86a8cc-6e6e-4fe1-aa6a-a95003b657aa",
+            "id": "93",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Python Tutorial",
+            "type": "url",
+            "url": "https://www.pythontutorial.net/"
+         }, {
+            "date_added": "13380844005882098",
+            "date_last_used": "13389714776208703",
+            "guid": "19c78156-0aa7-406e-a0dc-c79d22a829f9",
+            "id": "95",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AlgoMaster.io",
+            "type": "url",
+            "url": "https://algomaster.io/"
+         }, {
+            "date_added": "13381094523816493",
+            "date_last_used": "13391977938904711",
+            "guid": "bb02e88a-e7dc-4041-9a70-35eb6bbb6cb7",
+            "id": "97",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Grind 75",
+            "type": "url",
+            "url": "https://www.techinterviewhandbook.org/grind75/?hours=40&weeks=4&difficulty=Medium&difficulty=Easy&difficulty=Hard"
+         }, {
+            "date_added": "13392140919625924",
+            "date_last_used": "13392825350065243",
+            "guid": "d51dd059-464e-40a6-9098-9280036207f1",
+            "id": "106",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Settings | Cursor - The AI Code Editor",
+            "type": "url",
+            "url": "https://www.cursor.com/settings"
+         } ],
+         "date_added": "13374766956952149",
+         "date_last_used": "0",
+         "date_modified": "13393035917957358",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13374766956952150",
+         "date_last_used": "0",
+         "date_modified": "13376524956441877",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13374766956952157",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
