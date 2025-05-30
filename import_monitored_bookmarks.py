@@ -1,75 +1,78 @@
+import threading
+
+
+class Debouncer:
+    def __init__(self, delay, action):
+        self.delay = delay
+        self.action = action
+        self.timer = None
+        self.lock = threading.Lock()
+
+    def trigger(self, *args, **kwargs):
+        with self.lock:
+            if self.timer:
+                self.timer.cancel()
+            self.timer = threading.Timer(
+                self.delay, self._run, args=args, kwargs=kwargs
+            )
+            self.timer.daemon = True
+            self.timer.start()
+
+    def _run(self, *args, **kwargs):
+        with self.lock:
+            self.timer = None
+        self.action(*args, **kwargs)
+
+
 import time
 import subprocess
-import hashlib
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from bookmarks_import import import_bookmarks
 
-
-def chrome_is_running():
-    proc = subprocess.run(
-        ["tasklist", "/FI", "IMAGENAME eq chrome.exe"], capture_output=True, text=True
-    )
-    return "chrome.exe" in proc.stdout
+# Debounce class as above…
 
 
-def get_checksum(path):
-    try:
-        with open(path, "rb") as f:
-            return hashlib.md5(f.read()).hexdigest()
-    except FileNotFoundError:
-        return None
+def git_pull_and_import(json_path):
+    print("🔄 Debounced pull/import triggered")
+    subprocess.run(["git", "pull"], check=False)
+    print("⬇️ Pulled latest from GitHub")
+    # wait until Chrome is closed (from earlier solution)
+    while (
+        subprocess.run(
+            ["tasklist", "/FI", "IMAGENAME eq chrome.exe"],
+            capture_output=True,
+            text=True,
+        ).stdout.find("chrome.exe")
+        != -1
+    ):
+        print("⏳ Chrome open, delaying import…")
+        time.sleep(5)
+    import_bookmarks(json_path)
 
 
 class ImportChangeHandler(FileSystemEventHandler):
-    def __init__(self, bookmarks_file):
-        self.bookmarks_file = Path(bookmarks_file)
-        self.last_checksum = get_checksum(self.bookmarks_file)
+    def __init__(self, json_path):
+        self.json_path = Path(json_path)
+        self.debouncer = Debouncer(2.0, lambda: git_pull_and_import(self.json_path))
 
     def on_modified(self, event):
-        if Path(event.src_path) != self.bookmarks_file:
-            return
-
-        current_checksum = get_checksum(self.bookmarks_file)
-        if current_checksum == self.last_checksum:
-            return  # No real change
-        self.last_checksum = current_checksum
-
-        print("🔔 Detected new synced bookmarks")
-
-        while chrome_is_running():
-            print("⏳ Chrome is open, delaying import for 10s…")
-            time.sleep(10)
-
-        print("📥 Chrome closed—importing now!")
-        import_bookmarks(event.src_path)
-
-
-def git_pull_changes():
-    try:
-        subprocess.run(["git", "pull"], check=True)
-        print("⬇️ Pulled latest from GitHub")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git pull failed: {e}")
+        if event.src_path.endswith(self.json_path.name):
+            self.debouncer.trigger()
 
 
 if __name__ == "__main__":
-    bookmarks_file = Path.cwd() / "exported_bookmarks" / "Bookmarks_Chrome.json"
-    bookmarks_dir = bookmarks_file.parent
+    json_file = Path.cwd() / "exported_bookmarks" / "Bookmarks_Chrome.json"
+    handler = ImportChangeHandler(json_file)
+    obs = Observer()
+    obs.schedule(handler, str(json_file.parent), recursive=False)
 
-    event_handler = ImportChangeHandler(bookmarks_file)
-    observer = Observer()
-    observer.schedule(event_handler, path=str(bookmarks_dir), recursive=False)
-
-    print(f"👀 Watching for synced file changes in: {bookmarks_dir}")
-    observer.start()
-
+    print(f"👀 Watching for synced file in: {json_file.parent}")
+    obs.start()
     try:
         while True:
-            git_pull_changes()
-            time.sleep(30)
+            time.sleep(1)
     except KeyboardInterrupt:
-        observer.stop()
-
-    observer.join()
+        obs.stop()
+    obs.join()
