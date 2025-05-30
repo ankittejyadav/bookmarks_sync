@@ -1,29 +1,3 @@
-import threading
-
-
-class Debouncer:
-    def __init__(self, delay, action):
-        self.delay = delay
-        self.action = action
-        self.timer = None
-        self.lock = threading.Lock()
-
-    def trigger(self, *args, **kwargs):
-        with self.lock:
-            if self.timer:
-                self.timer.cancel()
-            self.timer = threading.Timer(
-                self.delay, self._run, args=args, kwargs=kwargs
-            )
-            self.timer.daemon = True
-            self.timer.start()
-
-    def _run(self, *args, **kwargs):
-        with self.lock:
-            self.timer = None
-        self.action(*args, **kwargs)
-
-
 import time
 import subprocess
 from pathlib import Path
@@ -31,14 +5,15 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from bookmarks_import import import_bookmarks
 
-# Debounce class as above…
+SUPPRESS_AFTER_EXPORT = 5
+last_export_time = 0
 
 
 def git_pull_and_import(json_path):
-    print("🔄 Debounced pull/import triggered")
+    global last_export_time
     subprocess.run(["git", "pull"], check=False)
-    print("⬇️ Pulled latest from GitHub")
-    # wait until Chrome is closed (from earlier solution)
+    print("⬇️ Pulled from GitHub")
+    # wait for Chrome to close (if on Windows)
     while (
         subprocess.run(
             ["tasklist", "/FI", "IMAGENAME eq chrome.exe"],
@@ -49,17 +24,25 @@ def git_pull_and_import(json_path):
     ):
         print("⏳ Chrome open, delaying import…")
         time.sleep(5)
+
     import_bookmarks(json_path)
+    last_export_time = time.time()
 
 
 class ImportChangeHandler(FileSystemEventHandler):
     def __init__(self, json_path):
         self.json_path = Path(json_path)
-        self.debouncer = Debouncer(2.0, lambda: git_pull_and_import(self.json_path))
 
     def on_modified(self, event):
+        global last_export_time
+        now = time.time()
+        # skip if we just exported
+        if now - last_export_time < SUPPRESS_AFTER_EXPORT:
+            return
+
         if event.src_path.endswith(self.json_path.name):
-            self.debouncer.trigger()
+            print("📥 Detected synced JSON change, pulling & importing…")
+            git_pull_and_import(self.json_path)
 
 
 if __name__ == "__main__":
@@ -68,7 +51,7 @@ if __name__ == "__main__":
     obs = Observer()
     obs.schedule(handler, str(json_file.parent), recursive=False)
 
-    print(f"👀 Watching for synced file in: {json_file.parent}")
+    print(f"👀 Watching synced JSON in: {json_file.parent}")
     obs.start()
     try:
         while True:
