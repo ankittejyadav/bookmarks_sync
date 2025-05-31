@@ -1,5 +1,5 @@
 {
-   "checksum": "ed2bf33ae67236b2323fc974d3fcd4c3",
+   "checksum": "b468ed2792138ffa8e5121e7c4a05260",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -192,39 +192,6 @@
             "name": "",
             "type": "url",
             "url": "https://www.caremark.com/"
-         }, {
-            "children": [ {
-               "date_added": "13330623518000000",
-               "date_last_used": "0",
-               "guid": "7ac45f16-4fac-40d9-8690-e08e362afc31",
-               "id": "41",
-               "name": "SEVP Portal",
-               "type": "url",
-               "url": "https://www.sevp.ice.gov/opt/#/login"
-            }, {
-               "date_added": "13336021571000000",
-               "date_last_used": "0",
-               "guid": "2fd991c8-c575-443b-acab-6277f3484b15",
-               "id": "42",
-               "name": "Address and Phone Display",
-               "type": "url",
-               "url": "https://www.bu.edu/link/bin/uiscgi_studentlink.pl/1691547967?ModuleName=address/main.pl"
-            }, {
-               "date_added": "13364735770000000",
-               "date_last_used": "0",
-               "guid": "b0005517-23d0-4165-8b15-14f6677a13ef",
-               "id": "43",
-               "name": "ISSO",
-               "type": "url",
-               "url": "https://issoportal.bu.edu/_portal/"
-            } ],
-            "date_added": "13374150437250053",
-            "date_last_used": "0",
-            "date_modified": "13374150437250053",
-            "guid": "c4c2459b-1006-4799-809b-56cb658a65f9",
-            "id": "40",
-            "name": "Visa",
-            "type": "folder"
          }, {
             "children": [ {
                "date_added": "13384793489992045",
