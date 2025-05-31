@@ -1,0 +1,528 @@
+{
+   "checksum": "497fd0d0222ca3f8dc8c85ba9949cb6c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13300978757731051",
+            "date_last_used": "0",
+            "guid": "270adedd-993e-4c8d-a9df-7eba3c1ac8a0",
+            "id": "5",
+            "name": "",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?ogbl#inbox"
+         }, {
+            "date_added": "13304004342792774",
+            "date_last_used": "0",
+            "guid": "e3416936-43c7-4c71-a85e-ae91cfe2c85e",
+            "id": "6",
+            "name": "",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/my-drive"
+         }, {
+            "date_added": "13341626897678784",
+            "date_last_used": "0",
+            "guid": "3df5810d-dbb4-4874-b513-f305990e1547",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://photos.google.com/"
+         }, {
+            "date_added": "13374852411966753",
+            "date_last_used": "0",
+            "guid": "db50be11-df18-4d76-9283-027db6c7a90d",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.youtube.com/feed/subscriptions"
+         }, {
+            "date_added": "13323970298728272",
+            "date_last_used": "0",
+            "guid": "7905486e-c552-4975-849e-84f4c42f1a67",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.linkedin.com/in/ankittejyadav/"
+         }, {
+            "date_added": "13323979699841060",
+            "date_last_used": "0",
+            "guid": "0c5d6fec-7d83-483d-b210-6015b6461898",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://github.com/ankittejyadav"
+         }, {
+            "date_added": "13333725038836670",
+            "date_last_used": "0",
+            "guid": "d0fe203a-c29d-46fa-8102-af51ca0b98c1",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://neetcode.io/practice"
+         }, {
+            "date_added": "13334786442982988",
+            "date_last_used": "0",
+            "guid": "b2fd58c1-9917-4570-bb54-c5f589217406",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://leetcode.com/ankittejyadav/"
+         }, {
+            "date_added": "13333060115150312",
+            "date_last_used": "0",
+            "guid": "f727a4f6-8d31-417d-9349-bd5a639aaa60",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13300935232000000",
+            "date_last_used": "0",
+            "guid": "82ab46b0-fa04-41b9-884d-956100109c15",
+            "id": "14",
+            "name": "",
+            "type": "url",
+            "url": "https://learn.bu.edu/ultra/course"
+         }, {
+            "date_added": "13301271718000000",
+            "date_last_used": "0",
+            "guid": "df230046-1269-4f44-a604-29ca6313a1ee",
+            "id": "15",
+            "name": "",
+            "type": "url",
+            "url": "https://bu-cogneuro.sona-systems.com/Main.aspx?p_log=ankit"
+         }, {
+            "date_added": "13304175634000000",
+            "date_last_used": "0",
+            "guid": "2c97b0d0-761a-41db-97e5-04d76165e7b5",
+            "id": "16",
+            "name": "",
+            "type": "url",
+            "url": "https://bu.joinhandshake.com/stu"
+         }, {
+            "date_added": "13373213128000000",
+            "date_last_used": "0",
+            "guid": "89e5e509-e4c2-43d1-a6c1-f6f14f5889e7",
+            "id": "17",
+            "name": "",
+            "type": "url",
+            "url": "https://app.pluralsight.com/library/"
+         }, {
+            "date_added": "13359846044000000",
+            "date_last_used": "0",
+            "guid": "b8db8d1e-dd97-4790-8bab-9bf084256485",
+            "id": "18",
+            "name": "",
+            "type": "url",
+            "url": "https://colab.research.google.com/"
+         }, {
+            "date_added": "13365175681000000",
+            "date_last_used": "0",
+            "guid": "0542dbe5-1543-4e2c-9ace-e6018b3a2dc3",
+            "id": "19",
+            "name": "",
+            "type": "url",
+            "url": "https://hip2save.com/?utm_source=google&utm_campaign=pmax_homepage&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwhb60BhClARIsABGGtw_7fem3RLNryneC-UVwwEGdx8bQR1cQxa2JHgi9_KRmPK5BbK66F6IaAvaBEALw_wcB"
+         }, {
+            "date_added": "13366296218000000",
+            "date_last_used": "0",
+            "guid": "37b4d2ac-bca3-407c-9e8b-76c2aaa351f1",
+            "id": "20",
+            "name": "",
+            "type": "url",
+            "url": "https://hip2save.com/freebies/"
+         }, {
+            "date_added": "13365986706000000",
+            "date_last_used": "0",
+            "guid": "0978a5c2-3e78-4490-b89b-2ac09186e326",
+            "id": "21",
+            "name": "",
+            "type": "url",
+            "url": "https://slickdeals.net/"
+         }, {
+            "date_added": "13374973968446021",
+            "date_last_used": "0",
+            "guid": "c7d8d708-268d-4e26-9612-fc54d1231a76",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://app.outlier.ai/en/expert?utm_campaign=website&utm_medium=email&utm_source=sendgrid.com"
+         }, {
+            "date_added": "13383933309028398",
+            "date_last_used": "0",
+            "guid": "58fe3d21-7a23-4986-a6f2-09ef92597e98",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.aetna.com/managemyaccount/login?identityTransaction=zUd1dNZjscvVbvO96I69lAT8R1TrMR0QXG0HdY0apEu%2FKBTZkIlyyjbtfY16MwJlSKMezH4SSzridmaJqt4FwbLFjhMY%2F8UipmMMTT9l8ycGZKHtxwiG8szKPWRAzTNoPgFuXqttCQEjZm4O9xC2HIJQow4mxiG6HrjEF2CesHHE8SdDyxGAp%2FiUDR6Hg9xZWum%2FOOADHiZ0ChtyJXmXVwWMQMRmSCIHfj5LuzN%2BMmloXNvDYzJMP3PbuiMavoYM8L3ncEiWX6YZYSxosm2tROGWgnt%2BoxxwGV%2FDOsJbpkNOMK9QiD%2B%2BKISXNAUjlt44sKbbBVb%2Bs6ZtUHzpN%2FotdKJnWLiUfg08FsZNemurLp%2B44Oq%2FOnSuoRPx105lyBYQuuGv%2FLakGWglu7NiyL%2FcH%2BZbm9911uPy0ijTRD57ljeDl9vKO8HxOPHDt5DGwgCQ6g78SQg1RjKKWmCEsrkIjlDgjLeSX%2BHORbGgTvXNUQBt8YaLYiAZUp0VNPN3mdstNx3ej%2Fdl5lm5Kay4bfia6K%2B8H7RTNJFuI9WUR4XXn%2F%2FzVbs73vEO7EuLl7ITsAlsvK09TXmgjOayF4s8IROYZlfgCXgtmqsGSODFnofbTOs%3D&appname=AHWEB&branding=aetna&skin=&language=&channel=web&psuid=&biometric_text=&business_event=Login"
+         }, {
+            "date_added": "13383933324846146",
+            "date_last_used": "0",
+            "guid": "9b3f26d5-b973-4a18-a17b-f135039034d4",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.caremark.com/"
+         }, {
+            "children": [ {
+               "date_added": "13353715237129069",
+               "date_last_used": "0",
+               "guid": "c5d0eaa9-3e2f-4ce7-8787-8de0e445dc9c",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon top 50 questions : r/leetcode",
+               "type": "url",
+               "url": "https://www.reddit.com/r/leetcode/comments/15sjhh3/amazon_top_50_questions/"
+            }, {
+               "date_added": "13353899609819094",
+               "date_last_used": "0",
+               "guid": "bc371081-7dd6-45c2-be6e-a171036d4ba3",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon LPs Compiled - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-experience/1149636/Amazon-LPs-Compiled"
+            }, {
+               "date_added": "13354047027342623",
+               "date_last_used": "0",
+               "guid": "794c5bcc-29d2-4f8f-ac9e-3e9d87de6ba5",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OOD [Design Unix File Search API] - LeetCode Discuss",
+               "type": "url",
+               "url": "https://leetcode.com/discuss/interview-question/609070/Amazon-OOD-Design-Unix-File-Search-API"
+            }, {
+               "date_added": "13381551431923517",
+               "date_last_used": "0",
+               "guid": "cad815f7-fae9-4d5f-8ffb-f9b2c5f8a354",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon Leadership Principles Interview Guide | Sample Questions - Exponent",
+               "type": "url",
+               "url": "https://www.tryexponent.com/blog/amazon-leadership-principles-interview"
+            }, {
+               "date_added": "13382936632976063",
+               "date_last_used": "0",
+               "guid": "0589a9b7-7697-43a1-b0ca-a2f453fad13a",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon OA2 work simulation | Amazon OA work style | 亚麻 oa",
+               "type": "url",
+               "url": "https://programhelp.net/amazon-oa2-work-simulation/"
+            }, {
+               "date_added": "13383011740590369",
+               "date_last_used": "0",
+               "guid": "a952dcaf-7259-4897-ab06-364e13334a85",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Top Amazon Questions - LeetCode",
+               "type": "url",
+               "url": "https://leetcode.com/problem-list/7p5x763/?sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1"
+            }, {
+               "date_added": "13383338102963843",
+               "date_last_used": "0",
+               "guid": "3129a871-7021-45e8-951b-400db22a3d44",
+               "id": "32",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "System Design - Mock Interview",
+               "type": "url",
+               "url": "https://app.brazenconnect.com/a/aws-ta/s/XBnp1/110yM"
+            } ],
+            "date_added": "13353712749957194",
+            "date_last_used": "0",
+            "date_modified": "13383338102963843",
+            "guid": "23577381-6c9e-4e25-8e19-52300e8a4ceb",
+            "id": "25",
+            "name": "Amazon",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13354057970682490",
+               "date_last_used": "0",
+               "guid": "af0997a2-46db-4935-bc3e-8c1ed1ea80fa",
+               "id": "34",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Coding Interview Patterns",
+               "type": "url",
+               "url": "https://glucko.github.io/codeprep/"
+            }, {
+               "date_added": "13350876899273558",
+               "date_last_used": "0",
+               "guid": "667a840c-bc47-4d6a-b82a-b09ebc310fc0",
+               "id": "35",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "LC",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986"
+            }, {
+               "date_added": "13353899597758035",
+               "date_last_used": "0",
+               "guid": "8da764f8-483d-4cd0-a9b2-fdca8625bdee",
+               "id": "36",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Sean Brian - Leetcode Patterns",
+               "type": "url",
+               "url": "https://seanprashad.com/leetcode-patterns/"
+            }, {
+               "date_added": "13381504480862315",
+               "date_last_used": "0",
+               "guid": "47085162-58ed-4ff2-8fe9-02782a7335ad",
+               "id": "37",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Grind 75",
+               "type": "url",
+               "url": "https://www.techinterviewhandbook.org/grind75/?hours=40&weeks=4"
+            }, {
+               "date_added": "13382937111907366",
+               "date_last_used": "0",
+               "guid": "eeb44bc8-0985-406d-87b2-12819e4a9190",
+               "id": "38",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "csoahelp-international students-interview agent in North America|OA agent|interview cheating|one acre and three points of land|hackrank cheating detection|hackrank test agent|hackrank interview experience|hackrank dual screen",
+               "type": "url",
+               "url": "https://csoahelp.com/"
+            }, {
+               "date_added": "13381372982010330",
+               "date_last_used": "0",
+               "guid": "f1f134b1-0239-469d-a8c6-ccba7a00b414",
+               "id": "39",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Leetcode Premium Questions - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/16lQto6Y2YIadoRUCH6avh30M2t2ASK89EBLM71mNrUY/edit?gid=1532276647#gid=1532276647"
+            } ],
+            "date_added": "13374150412786339",
+            "date_last_used": "0",
+            "date_modified": "13382937111907366",
+            "guid": "066e8374-24f7-45c3-84b8-d75b1535e6b2",
+            "id": "33",
+            "name": "Coding",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13330623518000000",
+               "date_last_used": "0",
+               "guid": "7ac45f16-4fac-40d9-8690-e08e362afc31",
+               "id": "41",
+               "name": "SEVP Portal",
+               "type": "url",
+               "url": "https://www.sevp.ice.gov/opt/#/login"
+            }, {
+               "date_added": "13336021571000000",
+               "date_last_used": "0",
+               "guid": "2fd991c8-c575-443b-acab-6277f3484b15",
+               "id": "42",
+               "name": "Address and Phone Display",
+               "type": "url",
+               "url": "https://www.bu.edu/link/bin/uiscgi_studentlink.pl/1691547967?ModuleName=address/main.pl"
+            }, {
+               "date_added": "13364735770000000",
+               "date_last_used": "0",
+               "guid": "b0005517-23d0-4165-8b15-14f6677a13ef",
+               "id": "43",
+               "name": "ISSO",
+               "type": "url",
+               "url": "https://issoportal.bu.edu/_portal/"
+            } ],
+            "date_added": "13374150437250053",
+            "date_last_used": "0",
+            "date_modified": "13374150437250053",
+            "guid": "c4c2459b-1006-4799-809b-56cb658a65f9",
+            "id": "40",
+            "name": "Visa",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13384793489992045",
+               "date_last_used": "0",
+               "guid": "3cd6e0b4-0bdc-4c42-b3b0-e8c0e5171265",
+               "id": "45",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "IRS",
+               "type": "url",
+               "url": "https://sa.www4.irs.gov/sso/?resumePath=%2Fas%2FYLSjgyqYSh%2Fresume%2Fas%2Fauthorization.ping&allowInteraction=true&reauth=false&connectionId=SADIPACLIENT&REF=E763DD1F13E1F6D26287967305AD27084A2EF15844CA6592BFFD0000006F&vnd_pi_requested_resource=https%3A%2F%2Fsa.www4.irs.gov%2Fola%2F&vnd_pi_application_name=OLA"
+            }, {
+               "date_added": "13384798202910248",
+               "date_last_used": "0",
+               "guid": "8a99661f-be51-431c-a9bb-e6e6eeb3a0e8",
+               "id": "46",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Taxes",
+               "type": "url",
+               "url": "https://drive.google.com/drive/u/0/folders/1DTj3D85GPjxPzeQstQ5iCGrFoRAoNDo3"
+            }, {
+               "date_added": "13384798231626397",
+               "date_last_used": "0",
+               "guid": "47b867f2-3b87-430b-b180-e50c27b1e16b",
+               "id": "47",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "MassTaxConnect",
+               "type": "url",
+               "url": "https://mtc.dor.state.ma.us/mtc/_/"
+            }, {
+               "date_added": "13384798261493249",
+               "date_last_used": "0",
+               "guid": "6575ec58-99b4-46a0-8304-4ea7f38e1cb0",
+               "id": "48",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Sprintax",
+               "type": "url",
+               "url": "https://taxprep.sprintax.com/log-in.html"
+            } ],
+            "date_added": "13384793471784070",
+            "date_last_used": "0",
+            "date_modified": "13384798261493249",
+            "guid": "ffe69232-3eb3-4572-99cc-509761a1fa91",
+            "id": "44",
+            "name": "Tax",
+            "type": "folder"
+         }, {
+            "date_added": "13384835574999671",
+            "date_last_used": "0",
+            "guid": "e51c1de5-6bba-4d84-bd02-e8853a573dac",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.doctorofcredit.com/best-bank-account-bonuses"
+         }, {
+            "date_added": "13384836080150900",
+            "date_last_used": "0",
+            "guid": "8cc4deae-b5d2-4cb8-b6a1-beade91bfc2e",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://www.cashbackmonitor.com/"
+         }, {
+            "date_added": "13385612972665543",
+            "date_last_used": "0",
+            "guid": "3e11c422-46ca-4a5c-aec3-c040d44ed8e6",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://topjobstoday.com/"
+         }, {
+            "date_added": "13385613046100299",
+            "date_last_used": "0",
+            "guid": "e347266d-defc-4c65-8392-d4108397c9bd",
+            "id": "52",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://sqlpremierleague.com/"
+         }, {
+            "date_added": "13393098189294120",
+            "date_last_used": "0",
+            "guid": "e0cbd9e2-bb84-4725-a5d2-def8a4bce6e6",
+            "id": "57",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "",
+            "type": "url",
+            "url": "https://gemini.google.com/app"
+         } ],
+         "date_added": "13393075811087591",
+         "date_last_used": "0",
+         "date_modified": "13393125792577108",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13393075811087592",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13393075811087593",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
